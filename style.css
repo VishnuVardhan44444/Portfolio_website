@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.head-section{
+    height:100vh;
+    border:1px solid black;
+    background-image: url('Images/i9.webp');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size:  1915px 913px; 
+    
+    
+}
+
+.head-section h1{
+        margin-top:250px;
+}
+.head-section h1{
+    padding-left:500px;
+}
+.head-section  p{
+    padding-left:580px;
+}
+.intro-section{
+    background-color: rgb(101, 131, 157);
+    height: 100vh;
+}
+.intro-section h1{
+    margin-left:100px;
+    padding-top:50px;
+   
+}
+.subsection-intro-section{
+    margin-left:150px;
+    margin-top:40px;
+    margin-right:100px;
+    padding-top:50px;
+    padding-left: 100px;
+    padding-right:100px;
+    background-color: rgb(214, 169, 164) ;
+    border-radius: 15px;
+     padding-bottom: 50px;
+     border: 1px solid black;
+     width:1100px;
+     height: 400px;
+    
+     
+}
+.education-section{
+    height: 100vh;
+    display: flex;
+    background-image: url('Images/i3.webp');
+    background-position: fixed;
+    background-repeat: no-repeat;
+   background-size:  1915px 913px; 
+}
+.education-section h1{
+    padding-top:40px;
+    padding-left:20px;
+}
+.edu-left{
+    margin-left:1px;
+    width:500px;
+    padding-right:50px;
+    padding-top:100px;
+}
+.edu-right{
+    width:500px;
+    padding-right:200px;
+   padding-top:100px;
+    margin-left:40px;
+}
+.diploma{
+    width:500px;
+    padding-top:40px;
+    border-radius:50px; 
+    background-image: url('Images/bit-institute-of-technology-anantapur-278053.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+   
+}
+.graduation{
+    width:500px;
+    padding-top:40px;
+    border-radius:50px; 
+    background-image: url('Images/sri-venkateswara-college-of-engineering-tirupati-214186.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+}
+
+.personal-skills{
+     height: 100vh;
+     background-image: url('Images/i6.webp');
+     background-position: fixed;
+     background-repeat: no-repeat;
+     background-size: 1915px 913px; 
+}
+.portfolio-project{
+     height: 100vh;
+    background-color: silver;
+}
+.portfolio-project h2{
+    margin-left:550px;
+    padding-top:300px;
+}
+.portfolio-project p{
+    margin-left:570px; 
+    /* padding-top:300px;  */
+}
+.personalskills-sub-section{
+    width:1200px;
+    border:1px solid ;
+    margin-left:100px;
+    margin-top:40px;
+    height:370px;
+    border-radius:20px;
+    background-color:skyblue;
+   
+}
+.project1{
+     height: 100vh; 
+     background-color: rgb(141, 167, 167);
+}
+
+.p1-sub-section{
+    width:900px;
+    height:440px;
+    border:1px solid black;
+    margin-left:200px;
+    border-radius:15px;
+    background-image: url('Images/Calculatorimg.png');
+     background-position:right;
+    background-repeat: no-repeat;
+     background-size: 250px 300px;
+     background-color:lemonchiffon;
+  
+    
+}
+.project2{
+     height: 100vh; 
+     background-color: rgb(141, 167, 167);
+}
+.p2-sub-section{
+     width:900px;
+    height:440px;
+    border:1px solid black;
+    margin-left:200px;
+    border-radius:15px;
+    background-image: url('Images/e1.png');
+     background-position:right;
+    background-repeat: no-repeat;
+     background-size:  250px 300px;
+     background-color:lemonchiffon;
+    
+}
+.project3{
+     height: 100vh; 
+     background-color: rgb(141, 167, 167);
+}
+.p3-sub-section{
+     width:900px;
+    height:440px;
+    border:1px solid black;
+    margin-left:200px;
+    border-radius:15px;
+    background-image: url('Images/portfolioprojectimage.png');
+     background-position:right;
+    background-repeat: no-repeat;
+     background-size:  250px 300px;
+     background-color:lemonchiffon;
+}
+.contact-details{
+    height: 100vh;
+    background-image: url('Images/i5.webp');
+    background-position: fixed;
+    background-repeat: no-repeat;
+     background-size: 1915px 913px; 
+
+}
+.contact-details h2{
+    margin-left:100px;
+}
+.contact-sub-section{
+    width:900px;
+    height: 370px;
+    margin-left:200px;
+    border:1px solid black;
+    margin-top:100px;
+    background-color: white;
+    border-radius: 25px;
+    
+} 
+.contact-sub-section{
+    padding-top:100px;
+    padding-left: 50px;
+    background-image: url('Images/IMG-20250112-WA0026.jpg');
+    background-position:right;
+    background-repeat: no-repeat;
+     background-size: 200px 250px; 
+    border-radius:20px;
+    border-color: white;
+}
+.contact-sub-section b{
+    padding-left:10px;
+}
