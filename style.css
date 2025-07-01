@@ -34,18 +34,18 @@
    
 }
 .subsection-intro-section{
-    margin-left:150px;
+    margin-left:200px;
     margin-top:40px;
     margin-right:100px;
     padding-top:50px;
-    padding-left: 100px;
-    padding-right:100px;
+    padding-left: 50px;
+    padding-right:50px;
     background-color: rgb(214, 169, 164) ;
     border-radius: 15px;
      padding-bottom: 50px;
      border: 1px solid black;
      width:1100px;
-     height: 400px;
+     height: 380px;
     
      
 }
@@ -59,19 +59,20 @@
 }
 .education-section h1{
     padding-top:40px;
-    padding-left:20px;
+     margin-left:50px;
 }
 .edu-left{
-    margin-left:1px;
+    margin-right:50px;
     width:500px;
     padding-right:50px;
-    padding-top:100px;
+    padding-top:120px;
+
 }
 .edu-right{
     width:500px;
     padding-right:200px;
-   padding-top:100px;
-    margin-left:40px;
+   padding-top:120px;
+    margin-left:50px;
 }
 .diploma{
     width:500px;
@@ -80,6 +81,7 @@
     background-image: url('Images/bit-institute-of-technology-anantapur-278053.jpg');
     background-position: fixed;
     background-repeat: no-repeat;
+    
    
 }
 .graduation{
@@ -102,22 +104,20 @@
      height: 100vh;
     background-color: silver;
 }
-.portfolio-project h2{
-    margin-left:550px;
-    padding-top:300px;
-}
+
 .portfolio-project p{
-    margin-left:570px; 
+    margin-left:650px; 
+    padding-top:300px;
     /* padding-top:300px;  */
 }
 .personalskills-sub-section{
-    width:1200px;
+    width:850px;
     border:1px solid ;
-    margin-left:100px;
+    margin-left:350px;
     margin-top:40px;
-    height:370px;
+    height:420px;
     border-radius:20px;
-    background-color:skyblue;
+    background-color:honeydew;
    
 }
 .project1{
@@ -129,7 +129,7 @@
     width:900px;
     height:440px;
     border:1px solid black;
-    margin-left:200px;
+    margin-left:320px;
     border-radius:15px;
     background-image: url('Images/Calculatorimg.png');
      background-position:right;
@@ -147,7 +147,7 @@
      width:900px;
     height:440px;
     border:1px solid black;
-    margin-left:200px;
+    margin-left:320px;
     border-radius:15px;
     background-image: url('Images/e1.png');
      background-position:right;
@@ -164,7 +164,7 @@
      width:900px;
     height:440px;
     border:1px solid black;
-    margin-left:200px;
+    margin-left:320px;
     border-radius:15px;
     background-image: url('Images/portfolioprojectimage.png');
      background-position:right;
@@ -186,7 +186,7 @@
 .contact-sub-section{
     width:900px;
     height: 370px;
-    margin-left:200px;
+    margin-left:320px;
     border:1px solid black;
     margin-top:100px;
     background-color: white;
