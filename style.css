@@ -31,6 +31,7 @@
 .intro-section h1{
     margin-left:100px;
     padding-top:50px;
+    color:white;
    
 }
 .subsection-intro-section{
@@ -93,12 +94,18 @@
     background-repeat: no-repeat;
 }
 
-.personal-skills{
+.skills-Technologies{
      height: 100vh;
      background-image: url('Images/i6.webp');
      background-position: fixed;
      background-repeat: no-repeat;
      background-size: 1915px 913px; 
+}
+.skills-Technologies button{
+    margin-top:200px;
+    margin-left:20px;
+    background-color:darkkhaki;
+    border-radius: 5px;
 }
 .portfolio-project{
      height: 100vh;
@@ -106,20 +113,11 @@
 }
 
 .portfolio-project p{
-    margin-left:650px; 
+    margin-left:600px; 
     padding-top:300px;
     /* padding-top:300px;  */
 }
-.personalskills-sub-section{
-    width:850px;
-    border:1px solid ;
-    margin-left:350px;
-    margin-top:40px;
-    height:420px;
-    border-radius:20px;
-    background-color:honeydew;
-   
-}
+
 .project1{
      height: 100vh; 
      background-color: rgb(141, 167, 167);
@@ -196,12 +194,13 @@
 .contact-sub-section{
     padding-top:100px;
     padding-left: 50px;
-    background-image: url('Images/IMG-20250112-WA0026.jpg');
+    background-image: url('Images/pic.jpg');
     background-position:right;
     background-repeat: no-repeat;
      background-size: 200px 250px; 
     border-radius:20px;
     border-color: white;
+    
 }
 .contact-sub-section b{
     padding-left:10px;
