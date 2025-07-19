@@ -1,207 +1,179 @@
-*{
-    margin:0;
-    padding:0;
-    font-family: sans-serif;
-    box-sizing: border-box;
-}
-.head-section{
-    height:100vh;
-    border:1px solid black;
-    background-image: url('Images/i9.webp');
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size:  1915px 913px; 
-    
-    
-}
+* {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      box-sizing: border-box;
+    }
 
-.head-section h1{
-        margin-top:250px;
-}
-.head-section h1{
-    padding-left:500px;
-}
-.head-section  p{
-    padding-left:500px;
-}
-.intro-section{
-    background-color: rgb(101, 131, 157);
-    height: 100vh;
-}
-.intro-section h1{
-    margin-left:100px;
-    padding-top:50px;
-    color:white;
-   
-}
-.subsection-intro-section{
-    margin-left:200px;
-    margin-top:40px;
-    margin-right:100px;
-    padding-top:50px;
-    padding-left: 50px;
-    padding-right:50px;
-    background-color: rgb(214, 169, 164) ;
-    border-radius: 15px;
-     padding-bottom: 50px;
-     border: 1px solid black;
-     width:1100px;
-     height: 380px;
-    
-     
-}
-.education-section{
-    height: 100vh;
-    display: flex;
-    background-image: url('Images/i3.webp');
-    background-position: fixed;
-    background-repeat: no-repeat;
-   background-size:  1915px 913px; 
-}
-.education-section h1{
-    padding-top:40px;
-     margin-left:50px;
-}
-.edu-left{
-    margin-right:50px;
-    width:500px;
-    padding-right:50px;
-    padding-top:120px;
+    body {
+      overflow-x: hidden;
+    }
 
-}
-.edu-right{
-    width:500px;
-    padding-right:200px;
-   padding-top:120px;
-    margin-left:50px;
-}
-.diploma{
-    width:500px;
-    padding-top:40px;
-    border-radius:50px; 
-    background-image: url('Images/bit-institute-of-technology-anantapur-278053.jpg');
-    background-position: fixed;
-    background-repeat: no-repeat;
-    
-   
-}
-.graduation{
-    width:500px;
-    padding-top:40px;
-    border-radius:50px; 
-    background-image: url('Images/sri-venkateswara-college-of-engineering-tirupati-214186.jpg');
-    background-position: fixed;
-    background-repeat: no-repeat;
-}
+    .head-section {
+      height: 100vh;
+      background: url('Images/i9.webp') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
 
-.skills-Technologies{
-     height: 100vh;
-     background-image: url('Images/i6.webp');
-     background-position: fixed;
-     background-repeat: no-repeat;
-     background-size: 1915px 913px; 
-}
-.skills-Technologies button{
-    margin-top:200px;
-    margin-left:20px;
-    background-color:darkkhaki;
-    border-radius: 5px;
-}
-.portfolio-project{
-     height: 100vh;
-    background-color: silver;
-}
+    .intro-section {
+      background-color: rgb(101, 131, 157);
+      padding: 3rem 1rem;
+      color: white;
+    }
+    .subsection-intro-section {
+      background-color: rgb(214, 169, 164);
+      border-radius: 15px;
+      padding: 2rem;
+      max-width: 900px;
+      margin: 2rem auto;
+      border: 1px solid black;
+    }
 
-.portfolio-project p{
-    margin-left:600px; 
-    padding-top:300px;
-    /* padding-top:300px;  */
-}
+    .education-section {
+      background: url('Images/i3.webp') no-repeat center center/cover;
+      color: yellow;
+      padding: 2rem 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
 
-.project1{
-     height: 100vh; 
-     background-color: rgb(141, 167, 167);
-}
+    .edu-left,
+    .edu-right {
+      flex: 1 1 300px;
+      max-width: 500px;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      border-radius: 20px;
+      padding: 2rem;
+    }
 
-.p1-sub-section{
-    width:900px;
-    height:440px;
-    border:1px solid black;
-    margin-left:320px;
-    border-radius:15px;
-    background-image: url('Images/Calculatorimg.png');
-     background-position:right;
-    background-repeat: no-repeat;
-     background-size: 250px 300px;
-     background-color:lemonchiffon;
-  
-    
-}
-.project2{
-     height: 100vh; 
-     background-color: rgb(141, 167, 167);
-}
-.p2-sub-section{
-     width:900px;
-    height:440px;
-    border:1px solid black;
-    margin-left:320px;
-    border-radius:15px;
-    background-image: url('Images/e1.png');
-     background-position:right;
-    background-repeat: no-repeat;
-     background-size:  250px 300px;
-     background-color:lemonchiffon;
-    
-}
-.project3{
-     height: 100vh; 
-     background-color: rgb(141, 167, 167);
-}
-.p3-sub-section{
-     width:900px;
-    height:440px;
-    border:1px solid black;
-    margin-left:320px;
-    border-radius:15px;
-    background-image: url('Images/portfolioprojectimage.png');
-     background-position:right;
-    background-repeat: no-repeat;
-     background-size:  250px 300px;
-     background-color:lemonchiffon;
-}
-.contact-details{
-    height: 100vh;
-    background-image: url('Images/i5.webp');
-    background-position: fixed;
-    background-repeat: no-repeat;
-     background-size: 1915px 913px; 
+    .diploma {
+      background: url('Images/bit-institute-of-technology-anantapur-278053.jpg') no-repeat center center/cover;
+    }
 
-}
-.contact-details h2{
-    margin-left:100px;
-}
-.contact-sub-section{
-    width:900px;
-    height: 370px;
-    margin-left:320px;
-    border:1px solid black;
-    margin-top:100px;
-    background-color: white;
-    border-radius: 25px;
-    
-} 
-.contact-sub-section{
-    padding-top:100px;
-    padding-left: 50px;
-    background-image: url('Images/pic.jpg');
-    background-position:right;
-    background-repeat: no-repeat;
-     background-size: 200px 250px; 
-    border-radius:20px;
-    border-color: white;
-    
-}
-.contact-sub-section b{
-    padding-left:10px;
-}
+    .graduation {
+      background: url('Images/sri-venkateswara-college-of-engineering-tirupati-214186.jpg') no-repeat center center/cover;
+    }
+
+    .skills-Technologies {
+      background: url('Images/i6.webp') no-repeat center center/cover;
+      padding: 4rem 1rem;
+      color: white;
+      text-align: center;
+    }
+    .skills-Technologies button {
+      width: 100px;
+      height: 100px;
+      margin: 1rem;
+      border-radius: 5px;
+      background-color: darkkhaki;
+      font-weight: bold;
+    }
+
+    .portfolio-project {
+      background-color: silver;
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+
+    .project1, .project2, .project3 {
+      background-color: rgb(141, 167, 167);
+      padding: 3rem 1rem;
+    }
+    .p1-sub-section,
+    .p2-sub-section,
+    .p3-sub-section {
+      background-color: lemonchiffon;
+      border: 1px solid black;
+      border-radius: 15px;
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background-repeat: no-repeat;
+      background-position: right;
+      background-size: 200px 250px;
+    }
+
+    .p1-sub-section {
+      background-image: url('Images/Calculatorimg.png');
+    }
+
+    .p2-sub-section {
+      background-image: url('Images/e1.png');
+    }
+
+     .p3-sub-section {
+      background-image: url('Images/portfolioprojectimage.png');
+    }
+
+    .contact-details {
+      background: url('Images/i5.webp') no-repeat center center/cover;
+      padding: 5rem 1rem;
+      color: white;
+    }
+
+    .contact-sub-section {
+      background-color: white;
+      border-radius: 20px;
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: url('Images/pic.jpg') no-repeat right center/200px 250px;
+      color: black;
+    }
+
+    .contact-sub-section p {
+      max-width: 70%;
+    }
+    /* ------------------- Responsive Media Queries ------------------- */
+    @media (max-width: 768px) {
+      .p1-sub-section,
+      .p2-sub-section,
+      .p3-sub-section,
+      .contact-sub-section {
+        background-position: bottom right;
+        background-size: 120px 150px;
+        padding-bottom: 200px;
+      }
+
+      .contact-sub-section p {
+        max-width: 100%;
+      }
+
+      .skills-Technologies button {
+        width: 80px;
+        height: 80px;
+        font-size: 0.8rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .head-section h1 {
+        font-size: 2.5rem;
+      }
+
+      .head-section p {
+        font-size: 1.2rem;
+      }
+
+         .skills-Technologies button {
+        width: 70px;
+        height: 70px;
+      }
+
+      .subsection-intro-section,
+      .p1-sub-section,
+      .p2-sub-section,
+      .p3-sub-section {
+        width: 90%;
+        margin: auto;
+      }
+    }
