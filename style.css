@@ -11,7 +11,7 @@
 
     .head-section {
       height: 100vh;
-      background: url('Images/i9.webp') no-repeat center center/cover;
+      background-color:blueviolet;
       display: flex;
       flex-direction: column;
       justify-content: center;
